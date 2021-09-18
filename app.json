@@ -1,0 +1,30 @@
+{
+    "name": "Lycia",
+    "description": "Hello, I am Lycia [リュキア], An Intelligent ChatBot. If You Are Feeling Lonely, You can Always Come to me and Chat With Me!",
+    "logo": "https://telegra.ph/file/de608084644c416309220.jpg",
+    "repository": "https://github.com/Red-Aura/Lyciachatbot",
+    
+    "env": {
+    "API_ID": {
+      "description": "Get this value from https://my.telegram.org",
+      "required": true,
+      "value": ""
+    },  
+    "BOT_TOKEN": {
+      "description": "Your bot token, as a string.",
+      "required": true,
+      "value": ""
+    },
+    "API_HASH":{
+        "description":"Get this value from https://my.telegram.org",
+        "required": true,
+        "value":""
+    }
+        
+    },
+    "addons": [
+        {
+            "plan": "heroku-postgresql"
+        }
+    ]
+}

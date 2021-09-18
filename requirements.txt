@@ -1,0 +1,15 @@
+wget
+Pillow
+aiohttp
+tgcrypto
+git+https://github.com/pyrogram/pyrogram@master
+pymoe
+requests_html
+ffmpeg
+tgcrypto
+pykeyboard
+psycopg2
+psycopg2-binary
+requests
+google-trans-new==1.1.9
+emoji
